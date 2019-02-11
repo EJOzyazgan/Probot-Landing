@@ -1,0 +1,32 @@
+<div>
+  <mat-toolbar color="primary">
+    <div>
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+
+    <a mat-button class="companyName" [routerLink]="['./home']">
+      <span>Probot Playground</span>
+    </a>
+    <span class="example-spacer"></span>
+    <div>
+      <a mat-button [routerLink]="['./home']">Home</a>
+      <a mat-button [routerLink]="['./about']">About Us</a>
+      <a mat-button [routerLink]="['./contact']">Contact</a>
+    </div>
+
+  </mat-toolbar>
+  <mat-sidenav-container fxFlexFill class="example-container">
+    <mat-sidenav color="primary" #sidenav mode="over" opened="false">
+      <div>
+        <a mat-button class="side-nav-item" (click)="sidenav.toggle()" [routerLink]="['./home']">Home</a>
+        <a mat-button class="side-nav-item" (click)="sidenav.toggle()" [routerLink]="['./about']">About Us</a>
+        <a mat-button class="side-nav-item" (click)="sidenav.toggle()" [routerLink]="['./contact']">Contact</a>
+      </div>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+      <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
