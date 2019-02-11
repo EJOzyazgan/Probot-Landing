@@ -1,16 +1,16 @@
 <div>
   <mat-toolbar color="primary">
-    <div>
+    <div class="menu-btn">
       <button mat-icon-button (click)="sidenav.toggle()">
         <mat-icon>menu</mat-icon>
       </button>
     </div>
 
-    <a mat-button class="companyName" [routerLink]="['./home']">
-      <span>Probot Playground</span>
+    <a mat-button [routerLink]="['./home']">
+      <div class="companyName">Probot Playground</div>
     </a>
     <span class="example-spacer"></span>
-    <div>
+    <div class="toolbar-btn">
       <a mat-button [routerLink]="['./home']">Home</a>
       <a mat-button [routerLink]="['./about']">About Us</a>
       <a mat-button [routerLink]="['./contact']">Contact</a>
