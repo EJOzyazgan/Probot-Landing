@@ -1,0 +1,50 @@
+.main-container {
+  width: fit-content;
+  margin: auto;
+}
+
+.header-container {
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.content-container {
+  margin: auto;
+  width: fit-content;
+}
+
+.team-pic {
+  width: 500px;
+  vertical-align: middle;
+}
+
+.team-pic-container {
+  margin: auto;
+  width: fit-content;
+}
+
+.team-description {
+  width: 50%;
+  margin: 10px auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .team-pic {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .team-description {
+    width: 75%;
+  }
+}
+
+
+
+

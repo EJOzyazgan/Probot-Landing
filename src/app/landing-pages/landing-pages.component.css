@@ -1,3 +1,11 @@
+.active-link-bar {
+  color: #C1C0BF;
+}
+
+.active-link-side {
+  color: #cc0000;
+}
+
 .companyName{
   font-size: 150%;
   white-space: normal;

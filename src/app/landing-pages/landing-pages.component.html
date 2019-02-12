@@ -11,18 +11,18 @@
     </a>
     <span class="example-spacer"></span>
     <div class="toolbar-btn">
-      <a mat-button [routerLink]="['./home']">Home</a>
-      <a mat-button [routerLink]="['./about']">About Us</a>
-      <a mat-button [routerLink]="['./contact']">Contact</a>
+      <a mat-button [routerLink]="['./home']" [routerLinkActive]="['active-link-bar']">Home</a>
+      <a mat-button [routerLink]="['./about']" [routerLinkActive]="['active-link-bar']">About Us</a>
+      <a mat-button [routerLink]="['./contact']" [routerLinkActive]="['active-link-bar']">Contact</a>
     </div>
 
   </mat-toolbar>
   <mat-sidenav-container fxFlexFill class="example-container">
     <mat-sidenav color="primary" #sidenav mode="over" opened="false">
       <div>
-        <a mat-button class="side-nav-item" (click)="sidenav.toggle()" [routerLink]="['./home']">Home</a>
-        <a mat-button class="side-nav-item" (click)="sidenav.toggle()" [routerLink]="['./about']">About Us</a>
-        <a mat-button class="side-nav-item" (click)="sidenav.toggle()" [routerLink]="['./contact']">Contact</a>
+        <a mat-button class="side-nav-item" (click)="sidenav.toggle()" [routerLink]="['./home']" [routerLinkActive]="['active-link-side']">Home</a>
+        <a mat-button class="side-nav-item" (click)="sidenav.toggle()" [routerLink]="['./about']" [routerLinkActive]="['active-link-side']">About Us</a>
+        <a mat-button class="side-nav-item" (click)="sidenav.toggle()" [routerLink]="['./contact']" [routerLinkActive]="['active-link-side']">Contact</a>
       </div>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill>
