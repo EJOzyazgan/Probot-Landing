@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 
 const appRoutes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: 'landing-pages'},
+  {path: '', pathMatch: 'full', redirectTo: 'landing-pages/home'},
   {path: 'landing-pages', loadChildren: './landing-pages/landing-pages.module#LandingPagesModule'},
 ];
 
