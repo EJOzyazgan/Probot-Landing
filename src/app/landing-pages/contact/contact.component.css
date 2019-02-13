@@ -35,3 +35,21 @@
 .contact {
   margin-left: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+  .contact-info {
+    display: block;
+  }
+
+  .contacts {
+    text-align: center;
+  }
+
+  .type {
+    text-align: center;
+  }
+
+  .contact {
+    margin-left: 0;
+  }
+}

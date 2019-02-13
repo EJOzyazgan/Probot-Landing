@@ -1,0 +1,111 @@
+.main-container {
+  text-align: center;
+}
+
+.hook {
+  font-family: sans-serif;
+  width: fit-content;
+  margin: auto;
+}
+
+.hook-header {
+  width: 90%;
+  font-size: 50px;
+  color: #cc0000;
+  margin: 50px auto 10px auto;
+}
+
+.hook-content {
+  width: 38%;
+  margin: auto;
+}
+
+.hook-description {
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.action-btn {
+  margin: 15px;
+  border: none;
+  background-color: #cc0000;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.action-btn:hover {
+  border: #cc0000 solid 2px;
+  background-color: transparent;
+  color: #cc0000;
+  cursor: pointer;
+}
+
+.coming-soon {
+  font-family: sans-serif;
+  font-size: 32px;
+  color: #cc0000;
+  margin-bottom: 5px;
+}
+
+.attend-event {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #cc0000;
+  margin-bottom: 20px;
+}
+
+.divider {
+  width: 75%;
+  margin: auto;
+}
+
+.section-header {
+  font-family: sans-serif;
+  font-size: 36px;
+  margin: 30px 0;
+}
+
+.benefits-info {
+  width: 75%;
+  display: flex;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+.benefit {
+  width: 30%;
+  margin: 20px;
+}
+
+.benefit-header {
+  margin-bottom: 15px;
+  color: #cc0000;
+  font-size: 30px;
+}
+
+.description {
+  text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hook-content {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .benefits-info {
+    display: block;
+  }
+
+  .benefit {
+    width: 90%;
+  }
+}

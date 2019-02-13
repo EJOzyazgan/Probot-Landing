@@ -19,6 +19,11 @@
 .mat-toolbar{
   height: 7vh;
   background: #cc0000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9;
 }
 
 .side-nav-item {
@@ -44,7 +49,11 @@ button{
 }
 
 .mat-sidenav-content{
+  margin-top: 7vh;
+}
 
+.mat-sidenav {
+  margin-top: 7vh;
 }
 
 .mat-sidenav-container{
