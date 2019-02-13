@@ -1,0 +1,37 @@
+.main-container {
+  text-align: center;
+}
+
+.header {
+  color: #cc0000;
+  font-family: sans-serif;
+  font-size: 56px;
+  margin: 50px 0 20px 0;
+}
+
+.contact-message {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+.contact-info {
+  width: fit-content;
+  display: flex;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+.contacts{
+  text-align: left;
+}
+
+.type {
+  text-align: right;
+  color: #cc0000;
+}
+
+.contact {
+  margin-left: 50px;
+}
