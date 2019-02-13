@@ -1,9 +1,13 @@
 .active-link-bar {
-  color: #C1C0BF;
+  color: #FFFFFF;
 }
 
 .active-link-side {
   color: #cc0000;
+}
+
+.toolbar-btn {
+  color: #C1C0BF;
 }
 
 .companyName{
