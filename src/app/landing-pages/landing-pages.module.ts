@@ -8,6 +8,7 @@ import {LandingPagesComponent} from './landing-pages.component';
 import {LandingPagesRoutingModule} from './landing-routing.module';
 import {MatButtonModule, MatIconModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import {EventComponent} from './event/event.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {FlexLayoutModule} from '@angular/flex-layout';
     LandingPagesComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    EventComponent
   ],
   imports: [
     CommonModule,

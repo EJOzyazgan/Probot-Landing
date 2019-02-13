@@ -1,0 +1,109 @@
+.main-container {
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  width: fit-content;
+  margin: 15px auto;
+}
+
+.main-info-container {
+  margin: auto 15px;
+}
+
+.main-info {
+  font-size: 48px;
+  font-family: sans-serif;
+  /*text-align: left;*/
+}
+
+.registration-container {
+
+}
+
+.register-btn {
+  margin: auto 15px;
+  width: 30%;
+  height: 75px;
+  font-family: sans-serif;
+  font-size: 25px;
+  border: none;
+  background-color: #cc0000;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.register-btn:hover {
+  cursor: pointer;
+  border: #cc0000 solid 2px;
+  background-color: transparent;
+  color: #cc0000;
+}
+
+.registration-info {
+  font-family: sans-serif;
+  font-size: 40px;
+  color: #cc0000;
+  margin: 50px;
+}
+
+.divider {
+  width: 75%;
+  margin: auto;
+}
+
+.section-header {
+  font-family: sans-serif;
+  font-size: 36px;
+  margin: 30px 0;
+}
+
+.about-info {
+  text-align: left;
+  text-indent: 20px;
+  font-size: 24px;
+  font-family: sans-serif;
+  width: 50%;
+  margin: 10px auto;
+}
+
+.schedule-info {
+  width: fit-content;
+  margin: auto;
+}
+
+.schedule-item {
+  display: flex;
+  margin:  20px auto;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.time {
+  text-align: right;
+}
+
+.start-time {
+  color: #cc0000;
+}
+
+.end-time {
+}
+
+.activity {
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-container {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about-info {
+    width: 75%;
+  }
+}
