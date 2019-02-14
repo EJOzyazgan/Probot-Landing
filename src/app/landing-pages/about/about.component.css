@@ -9,8 +9,9 @@
 }
 
 .header {
-  font-family: sans-serif;
-  font-size: 30px;
+  font-size: 50px;
+  color: #cc0000;
+  margin-bottom: 20px;
 }
 
 .content-container {
@@ -19,7 +20,7 @@
 }
 
 .team-pic {
-  width: 500px;
+  width: 700px;
   vertical-align: middle;
 }
 
@@ -31,17 +32,28 @@
 .team-description {
   width: 50%;
   margin: 10px auto;
-}
-
-@media only screen and (max-width: 600px) {
-  .team-pic {
-    width: 300px;
-  }
+  font-size: 24px;
 }
 
 @media only screen and (max-width: 900px) {
   .team-description {
     width: 75%;
+  }
+
+  .team-pic {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .team-pic {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .team-pic {
+    width: 400px;
   }
 }
 
