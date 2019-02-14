@@ -4,30 +4,28 @@
 
 .header {
   color: #cc0000;
-  font-family: sans-serif;
   font-size: 56px;
   margin: 50px 0 20px 0;
 }
 
+.contact-type {
+  display: flex;
+  margin-bottom: 10px;
+}
+
 .contact-message {
-  font-family: sans-serif;
   font-size: 30px;
   margin-bottom: 60px;
 }
 
 .contact-info {
-  width: fit-content;
-  display: flex;
   font-size: 30px;
-  font-family: sans-serif;
   margin: auto;
 }
 
-.contacts{
-  text-align: left;
-}
-
 .type {
+  margin-left: 18%;
+  width:  30%;
   text-align: right;
   color: #cc0000;
 }
@@ -36,20 +34,17 @@
   margin-left: 50px;
 }
 
-@media only screen and (max-width: 600px) {
-  .contact-info {
-    display: block;
-  }
-
-  .contacts {
-    text-align: center;
-  }
-
+@media only screen and (max-width: 900px) {
   .type {
     text-align: center;
+    margin: auto;
   }
 
   .contact {
     margin-left: 0;
+  }
+
+  .contact-type {
+    display: block;
   }
 }

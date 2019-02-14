@@ -3,7 +3,6 @@
 }
 
 .hook {
-  font-family: sans-serif;
   width: fit-content;
   margin: auto;
 }
@@ -21,7 +20,6 @@
 }
 
 .hook-description {
-  font-family: sans-serif;
   font-size: 30px;
   text-align: left;
   margin-bottom: 20px;
@@ -31,7 +29,6 @@
   margin: 15px;
   border: none;
   background-color: #cc0000;
-  font-family: sans-serif;
   font-size: 24px;
   color: #FFFFFF;
   text-align: center;
@@ -47,14 +44,12 @@
 }
 
 .coming-soon {
-  font-family: sans-serif;
   font-size: 32px;
   color: #cc0000;
   margin-bottom: 5px;
 }
 
 .attend-event {
-  font-family: sans-serif;
   font-size: 24px;
   color: #cc0000;
   margin-bottom: 20px;
@@ -66,7 +61,6 @@
 }
 
 .section-header {
-  font-family: sans-serif;
   font-size: 36px;
   margin: 30px 0;
 }
@@ -75,7 +69,6 @@
   width: 75%;
   display: flex;
   font-size: 24px;
-  font-family: sans-serif;
   margin: auto;
 }
 

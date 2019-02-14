@@ -26,7 +26,6 @@
   margin: auto 15px;
   width: 30%;
   height: 75px;
-  font-family: sans-serif;
   font-size: 25px;
   border: none;
   background-color: #cc0000;
@@ -43,7 +42,6 @@
 }
 
 .registration-info {
-  font-family: sans-serif;
   font-size: 40px;
   color: #cc0000;
   margin: 50px;
@@ -55,16 +53,13 @@
 }
 
 .section-header {
-  font-family: sans-serif;
   font-size: 36px;
   margin: 30px 0;
 }
 
 .about-info {
   text-align: left;
-  text-indent: 20px;
   font-size: 24px;
-  font-family: sans-serif;
   width: 75%;
   margin: 10px auto;
 }
@@ -73,7 +68,6 @@
   width: fit-content;
   display: flex;
   font-size: 24px;
-  font-family: sans-serif;
   margin: auto;
 }
 
