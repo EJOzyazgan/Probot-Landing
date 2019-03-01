@@ -9,6 +9,7 @@ import {LandingPagesRoutingModule} from './landing-routing.module';
 import {MatButtonModule, MatIconModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {EventComponent} from './event/event.component';
+import {AngularFontAwesomeModule} from 'angular-font-awesome';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {EventComponent} from './event/event.component';
     MatIconModule,
     MatButtonModule,
     MatSidenavModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AngularFontAwesomeModule
   ]
 })
 export class LandingPagesModule {}

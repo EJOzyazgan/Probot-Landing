@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import {AppRoutingModule, RoutingComponents} from './app-routing.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import {AngularFontAwesomeModule} from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {FlexLayoutModule} from '@angular/flex-layout';
     AppRoutingModule,
     BrowserModule,
     BrowserAnimationsModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

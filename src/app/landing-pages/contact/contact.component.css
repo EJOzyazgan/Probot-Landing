@@ -24,14 +24,29 @@
 }
 
 .type {
-  margin-left: 18%;
-  width:  30%;
+  margin-left: 42%;
+  width: fit-content;
   text-align: right;
   color: #cc0000;
 }
 
 .contact {
-  margin-left: 50px;
+  margin-left: 20px;
+}
+
+.contact-icons {
+  color: #cc0000;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+}
+
+.contact-icon {
+  margin: 0 20px;
+}
+
+.contact-icon a {
+  color: inherit;
 }
 
 @media only screen and (max-width: 900px) {

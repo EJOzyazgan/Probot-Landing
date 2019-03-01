@@ -8,7 +8,7 @@
 }
 
 .toolbar-btn {
-  height: 7vh;
+  height: 8vh;
   border-radius: 0;
   display: table-cell;
   vertical-align: middle;
@@ -19,10 +19,9 @@
   background-color: #C1C0BF;
 }
 
-.companyName {
-  font-size: 150%;
-  white-space: normal;
-  text-align: left;
+.companyLogo {
+  margin-top: 15px;
+  max-width: 300px;
 }
 
 .home-link {
@@ -30,7 +29,7 @@
 }
 
 .mat-toolbar{
-  height: 7vh;
+  height: 8vh;
   background: #FFFFFF;
   position: fixed;
   top: 0;
@@ -73,17 +72,17 @@ button{
 }
 
 .mat-sidenav-content{
-  margin-top: 7vh;
+  margin-top: 8vh;
   background-color: #FFFFFF;
 }
 
 .mat-sidenav {
-  margin-top: 7vh;
+  margin-top: 8vh;
   background-color: #FFFFFF;
 }
 
 .mat-sidenav-container{
-  min-height: 93vh !important;
+  min-height: 92vh !important;
   background-color: #FFFFFF;
 }
 
@@ -91,16 +90,12 @@ button{
   visibility: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .menu-btn {
     visibility: visible;
   }
 
   .toolbar-btns {
     visibility: hidden;
-  }
-
-  .companyName {
-    white-space: nowrap;
   }
 }
