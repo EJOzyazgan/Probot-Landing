@@ -26,7 +26,7 @@
   margin: auto 15px;
   width: 30%;
   height: 75px;
-  font-size: 25px;
+  font-size: 32px;
   border: none;
   background-color: #cc0000;
   color: white;
@@ -41,6 +41,17 @@
   color: #cc0000;
 }
 
+.deadline-info {
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.bot-setup-download {
+  margin: 10px;
+  font-size: 22px;
+}
+
 .registration-info {
   font-size: 40px;
   color: #cc0000;
@@ -53,7 +64,7 @@
 }
 
 .section-header {
-  font-size: 36px;
+  font-size: 42px;
   margin: 30px 0;
 }
 
@@ -64,16 +75,22 @@
   margin: 10px auto;
 }
 
+.prize {
+  font-size: 36px;
+  margin: 10px auto;
+  color: #cc0000;
+}
+
 .schedule-info {
   width: fit-content;
   display: flex;
-  font-size: 24px;
+  font-size: 28px;
   margin: auto;
 }
 
 .time {
   text-align: right;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .start-time {
@@ -86,7 +103,7 @@
 .activity {
   text-align: left;
   margin-left: 50px;
-  margin-bottom: 43px;
+  margin-bottom: 52px;
 }
 
 .sponsor-section {

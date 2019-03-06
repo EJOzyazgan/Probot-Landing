@@ -1,5 +1,5 @@
 .main-container {
-  width: fit-content;
+  /*width: fit-content;*/
   margin: auto;
 }
 
@@ -17,10 +17,16 @@
 .content-container {
   margin: auto;
   width: fit-content;
+  display: flex;
+}
+
+.team-member-container {
+  width: fit-content;
+  margin: 50px;
 }
 
 .team-pic {
-  width: 700px;
+  width: 250px;
   vertical-align: middle;
 }
 
@@ -29,31 +35,39 @@
   width: fit-content;
 }
 
+.team-member-name {
+  width: fit-content;
+  margin: 15px auto 0 auto;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.team-member-title {
+  width: fit-content;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+.team-member-contact-container {
+  width: fit-content;
+  margin: 10px auto;
+}
+
+.team-member-contact {
+  color: #cc0000;
+  margin: 15px;
+}
+
 .team-description {
-  width: 50%;
+  width: 300px;
   margin: 10px auto;
   font-size: 24px;
 }
 
 @media only screen and (max-width: 900px) {
-  .team-description {
-    width: 75%;
-  }
-
-  .team-pic {
-    width: 600px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .team-pic {
-    width: 500px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .team-pic {
-    width: 400px;
+   .content-container {
+    display: block;
   }
 }
 

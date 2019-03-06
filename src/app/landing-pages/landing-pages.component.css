@@ -8,7 +8,7 @@
 }
 
 .toolbar-btn {
-  height: 8vh;
+  height: 6vh;
   border-radius: 0;
   display: table-cell;
   vertical-align: middle;
@@ -20,8 +20,8 @@
 }
 
 .companyLogo {
-  margin-top: 15px;
-  max-width: 300px;
+  margin-top: 2vh;
+  max-width: 280px;
 }
 
 .home-link {
@@ -29,7 +29,7 @@
 }
 
 .mat-toolbar{
-  height: 8vh;
+  height: 6vh;
   background: #FFFFFF;
   position: fixed;
   top: 0;
@@ -72,17 +72,17 @@ button{
 }
 
 .mat-sidenav-content{
-  margin-top: 8vh;
+  margin-top: 6vh;
   background-color: #FFFFFF;
 }
 
 .mat-sidenav {
-  margin-top: 8vh;
+  margin-top: 6vh;
   background-color: #FFFFFF;
 }
 
 .mat-sidenav-container{
-  min-height: 92vh !important;
+  min-height: 94vh !important;
   background-color: #FFFFFF;
 }
 
