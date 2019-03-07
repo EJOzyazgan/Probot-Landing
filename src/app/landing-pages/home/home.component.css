@@ -8,7 +8,7 @@
   height: fit-content;
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
-  background-color: rgba(204, 0, 0, 0.75);
+  background-color: rgba(204, 0, 0, 0.9);
   color: #FFFFFF;
 }
 
