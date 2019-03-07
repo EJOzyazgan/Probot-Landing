@@ -1,35 +1,49 @@
-.active-link {
-  color: #FFFFFF;
-  background-color: #cc0000;
+.nav-bar {
+  display: flex;
+  width: 100%;
 }
 
-.toolbar-btns {
+.content-container {
+  margin-top: 100px;
+}
+
+.active-link {
   color: #cc0000;
 }
 
 .toolbar-btn {
-  height: 6vh;
-  border-radius: 0;
-  display: table-cell;
-  vertical-align: middle;
+
 }
 
-.toolbar-btn:hover {
-  color: #FFFFFF;
-  background-color: #C1C0BF;
+.toolbar-btns {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #505050;
+  width: fit-content;
+  display: flex;
+}
+
+.toolbar-link {
+  font-size: 24px;
+  margin: 20px;
+  color: inherit;
 }
 
 .companyLogo {
-  margin-top: 2vh;
-  max-width: 280px;
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 288px;
+  height: 70px;
 }
 
 .home-link {
   color: #cc0000;
 }
 
-.mat-toolbar{
-  height: 6vh;
+.mat-toolbar {
+  height: 100px;
   background: #FFFFFF;
   position: fixed;
   top: 0;
@@ -40,7 +54,12 @@
 }
 
 .side-nav-btns {
-  color: #cc0000;
+  color: #505050;
+}
+
+.side-nav-btn {
+  margin: 20px auto;
+  width: fit-content;
 }
 
 .side-nav-item {
@@ -53,41 +72,41 @@
   background-color: #C1C0BF;
 }
 
-a{
+a {
   text-decoration: none;
   font-size: 110%;
 }
 
-button{
+button {
   font-size: 110%;
   min-width: min-content;
 }
 
-.example-icon {
-  padding: 0 14px;
-}
-
-.example-spacer {
-  flex: 1 1 auto;
-}
-
-.mat-sidenav-content{
-  margin-top: 6vh;
+.mat-sidenav-content {
+  margin-top: 100px;
   background-color: #FFFFFF;
 }
 
 .mat-sidenav {
-  margin-top: 6vh;
+  margin-top: 100px;
   background-color: #FFFFFF;
 }
 
-.mat-sidenav-container{
-  min-height: 94vh !important;
+.mat-sidenav-container {
+  min-height: 100vh !important;
   background-color: #FFFFFF;
 }
 
 .menu-btn {
   visibility: hidden;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
 }
 
 @media only screen and (max-width: 900px) {

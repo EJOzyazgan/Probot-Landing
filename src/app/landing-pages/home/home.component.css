@@ -3,47 +3,44 @@
 }
 
 .event-banner {
-  background: #cc0000;
-  min-height: 40vh;
+  width: 100%;
+  min-height: 450px;
   height: fit-content;
-  padding-top: 30px;
-  color: white;
-  margin-top: 30px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  background-color: rgba(204, 0, 0, 0.75);
+  color: #FFFFFF;
 }
 
 .event-info {
-  font-size: 48px;
-  font-family: sans-serif;
-
+  font-size: 40px;
 }
 
 .event-title {
-  font-family: sans-serif;
-  font-size: 64px;
-  color: white;
-  margin-bottom: 50px;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .event-hook {
-  font-family: sans-serif;
-  font-size: 36px;
+  font-size: 30px;
   margin-top: 30px;
 }
 
 .registration-container {
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
+  width: fit-content;
 }
 
 .register-btn {
+  width: 600px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: #ffffff;
   margin: auto;
-  width: 30%;
-  height: 75px;
-  font-size: 32px;
-  border: none;
-  background-color: white;
+  font-size: 40px;
   color: #cc0000;
-  text-align: center;
-  border-radius: 5px;
+  border: none;
 }
 
 .register-btn:hover {
@@ -53,47 +50,45 @@
   color: white;
 }
 
-.deadline-title {
-  font-family: sans-serif bold;
-  font-size: 32px;
-  margin-top: 10px;
-  text-decoration: underline;
-}
-
-.deadline-info {
-  font-family: sans-serif;
-  font-size: 28px;
-  margin-top: 10px;
+.registration-info {
+  font-size: 20px;
 }
 
 .more-info {
-  font-family: sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   margin: 10px;
-  color: white;
 }
 
 .hook {
-  width: fit-content;
-  margin: auto;
-}
-
-.hook-header {
-  width: 90%;
-  font-size: 50px;
-  color: #cc0000;
-  margin: 50px auto 10px auto;
+  display: flex;
+  margin-top: 75px;
 }
 
 .hook-content {
-  width: 38%;
-  margin: auto;
+  margin-left: 100px;
+  margin-top: 175px;
+}
+
+.hook-header {
+  font-size: 75px;
+  color: #cc0000;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
 .hook-description {
-  font-size: 30px;
+  font-size: 50px;
   text-align: left;
-  margin-bottom: 20px;
+  max-width: 1036px;
+  color: #505050;
+}
+
+.hook-img {
+  margin: 50px auto 0 auto;
+}
+
+.robot-logo {
+
 }
 
 .action-btn {
@@ -131,9 +126,14 @@
   margin: auto;
 }
 
+.benefits-section {
+  margin: 80px 0;
+}
+
 .section-header {
-  font-size: 36px;
+  font-size: 50px;
   margin: 30px 0;
+  color: #505050;
 }
 
 .benefits-info {
@@ -151,21 +151,33 @@
 .benefit-header {
   margin-bottom: 15px;
   color: #cc0000;
-  font-size: 30px;
-}
-
-.description {
+  font-size: 40px;
   text-align: left;
 }
 
+.benefit-description {
+  text-align: left;
+  font-size: 28px;
+  color: #505050;
+}
+
 @media only screen and (max-width: 1200px) {
+  .hook {
+    display: block;
+  }
+
   .hook-content {
-    width: 75%;
+    width: 90%;
+    margin: 150px auto 0 auto;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .benefits-info {
+    display: block;
+  }
+
+  .hook {
     display: block;
   }
 
