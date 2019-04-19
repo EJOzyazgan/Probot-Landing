@@ -4,7 +4,7 @@
 
 .event-banner {
   width: 100%;
-  min-height: 450px;
+  min-height: 338px;
   height: fit-content;
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
@@ -17,7 +17,7 @@
 }
 
 .event-title {
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -34,7 +34,7 @@
 
 .register-btn {
   width: 600px;
-  height: 100px;
+  height: 75px;
   border-radius: 20px;
   background-color: #ffffff;
   margin: 10px 10px 0 auto;
@@ -61,7 +61,7 @@
 
 .hook {
   display: flex;
-  margin-top: 75px;
+  /*margin-top: 25px;*/
 }
 
 .hook-content {

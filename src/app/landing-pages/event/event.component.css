@@ -29,7 +29,7 @@
 
 .register-btn {
   width: 600px;
-  height: 100px;
+  height: 75px;
   border-radius: 20px;
   background-color: #cc0000;
   margin: 10px 10px 0 auto;
@@ -46,8 +46,8 @@
 }
 
 .bot-btn {
-  width: 400px;
-  height: 75px;
+  width: 300px;
+  height: 50px;
   border-radius: 20px;
   background-color: #cc0000;
   margin: 0 10px 0 auto;
@@ -79,14 +79,14 @@
 }
 
 .section-header {
-  font-size: 40px;
+  font-size: 30px;
   margin: 50px 0 30px 0;
   color: #cc0000;
 }
 
 .about-info {
   text-align: left;
-  font-size: 30px;
+  font-size: 24px;
   width: 75%;
   margin: 10px auto;
   color: #505050;
@@ -94,7 +94,7 @@
 
 .schedule-info {
   width: fit-content;
-  font-size: 30px;
+  font-size: 25px;
   margin: auto;
 }
 
@@ -146,7 +146,7 @@
 }
 
 .sponsor-pic {
-  width: 700px;
+  width: 550px;
   margin: 30px auto;
 }
 

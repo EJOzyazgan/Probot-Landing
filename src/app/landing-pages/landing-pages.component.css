@@ -4,7 +4,7 @@
 }
 
 .content-container {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .active-link {
@@ -34,8 +34,7 @@
 .companyLogo {
   margin-top: 15px;
   margin-left: 40px;
-  width: 288px;
-  height: 70px;
+  width: 250px;
 }
 
 .home-link {
@@ -43,7 +42,7 @@
 }
 
 .mat-toolbar {
-  height: 100px;
+  height: 75px;
   background: #FFFFFF;
   position: fixed;
   top: 0;
@@ -74,21 +73,21 @@
 
 a {
   text-decoration: none;
-  font-size: 110%;
+  font-size: 75%;
 }
 
 button {
-  font-size: 110%;
+  font-size: 75%;
   min-width: min-content;
 }
 
 .mat-sidenav-content {
-  margin-top: 100px;
+  margin-top: 67px;
   background-color: #FFFFFF;
 }
 
 .mat-sidenav {
-  margin-top: 100px;
+  margin-top: 67px;
   background-color: #FFFFFF;
 }
 
